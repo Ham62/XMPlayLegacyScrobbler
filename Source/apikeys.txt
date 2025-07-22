@@ -1,0 +1,8 @@
+/*
+ * Rename this file to 'apikeys.h' and fill in your
+ * last.fm API key and secret.
+ *
+ */
+
+char *pszAPIKey = "";
+char *pszSecret = "";

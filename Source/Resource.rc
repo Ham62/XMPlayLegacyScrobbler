@@ -1,0 +1,127 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG DIALOGEX 0, 0, 252, 138
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "XMPlay Legacy Scrobbler"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,15,100,56,25
+    PUSHBUTTON      "Cancel",IDCANCEL,77,100,56,25
+    CONTROL         103,IDC_ASBADGE,"Static",SS_BITMAP | SS_NOTIFY,161,100,
+                    77,25,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Configuration",IDC_STATIC,7,7,237,123
+    EDITTEXT        IDC_EDITUSER,60,27,69,12,ES_AUTOHSCROLL
+    LTEXT           "Username:",IDC_USERNAME,20,30,35,8
+    LTEXT           "Password:",IDC_PASSWORD,20,46,34,8
+    EDITTEXT        IDC_EDITPASS,60,44,69,12,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "Account",IDC_STATIC,13,17,121,68
+    PUSHBUTTON      "Log In",IDC_LOGIN,19,62,35,19
+    CONTROL         "Enable Scrobbling",IDC_ENABLESCROBBLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,147,26,88,16
+    GROUPBOX        "Settings",IDC_STATIC,140,17,99,69
+    CONTROL         "Update <Now Playing>",IDC_ENABLENP,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,147,41,88,15
+    CTEXT           "Not Logged In",IDC_LOGGEDIN,59,62,69,19,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    CONTROL         "Enable Logging",IDC_ENABLELOG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,147,58,82,10
+    CONTROL         "Limit Log To:",IDC_LIMITLOG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,147,72,54,10
+    COMBOBOX        IDC_LOGSIZE,201,70,34,30,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LFMBADGE            BITMAP  DISCARDABLE     "res\\lfmbadge.bmp"
+IDB_ASBADGE             BITMAP  DISCARDABLE     "res\\asbadge.bmp"
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
