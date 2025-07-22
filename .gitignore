@@ -3,7 +3,7 @@
 [Rr]elease/
 
 # Private API key
-apikey.h
+apikeys.h
 
 # VC++ Intellisense Database
 *.ncb
