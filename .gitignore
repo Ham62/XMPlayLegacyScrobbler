@@ -1,0 +1,15 @@
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+
+# Private API key
+apikey.h
+
+# VC++ Intellisense Database
+*.ncb
+
+# VS Build Log
+*.plg
+
+# VS workspace options (which files open, etc.)
+*.opt
