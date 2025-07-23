@@ -23,6 +23,9 @@ XMP Legacy Scrobbler.cpp
 	will be produced, or you can check the "doesn't produce lib" checkbox in 
 	the Linker settings page for this project. 
 
+XMPLegacyScrobbler.mak
+    This is the makefile for building manually with NMAKE.
+
 /////////////////////////////////////////////////////////////////////////////
 Other standard files:
 
