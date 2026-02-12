@@ -39,6 +39,8 @@ This project was built using MSVC++ 6.0. It has not been tested against any othe
 
 * `XMP Legacy Scrobbler.dsw` is the Visual Studio workspace file for this project.
 * `XMPLegacyScrobbler.mak` is the nmake build script for compiling from the command line.
+
+You will need create a Last.fm API account and [request an API key](https://www.last.fm/api/account/create) in order to build this plugin from source.
  
 Before compiling, rename `apikeys.txt` to `apikeys.h` and enter your Last.fm API Key and Shared Secret to their respective lines.
 
@@ -51,6 +53,6 @@ You must have OpenSSL installed in your compiler's include path to build this pl
 ## License
 This project is licensed under the MIT license.
 
-Copyright (c) 2025 Graham Downey
+Copyright (c) 2025-2026 Graham Downey
 
 See included LICENSE.TXT for full terms.
